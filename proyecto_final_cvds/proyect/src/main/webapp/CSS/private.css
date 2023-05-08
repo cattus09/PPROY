@@ -1,0 +1,61 @@
+.body {
+    display: flex;
+    /*justify-content: center;
+    align-items: center;*/
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-image: url(../imagenes/fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.body .structure .welcome_user {
+    position: relative;
+    color: whitesmoke;
+    left: 100px;
+    top: 40px;
+    width: 65px;
+    height: 70px;
+}
+
+.body .welcome_user .text_welcome {
+    position: absolute;
+    left: 30px;
+}
+
+.body .buttons {
+    position: relative;
+    right: -1200px;
+    top: 40px;
+}
+
+.body .structure .buttons #button1 {
+    position: relative;
+    left: 40px;
+}
+
+#button2 {
+    position: relative;
+    right: 30px;
+}
+
+h2{
+    position: relative;
+    top: 205px;
+    color: azure;
+    left: 35px;
+}
+
+.card{
+    position: relative;
+    top: 215px;
+    left: 35px;
+    width: 95%;
+}
+
+.descargar{
+    position: relative;
+    left: 1340px;
+    top: 55px;
+}
